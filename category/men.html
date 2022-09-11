@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="men.css" />
+
+    <!-- Logo -->
+    <link rel="icon" href="../assets/images/logo.png">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    <header>
+        <ul class="nav-list">
+            <a class="navbar-brand" href="#">
+                <img class="img1" src="../assets/images/logo.png" alt="" width="45" height="45">
+                <h3>CLOAISE<span class="web"> STORE</span></h3>
+            </a>
+            <li class="nav-item">
+                <a href="../course.html" class="nav-link">
+                    <span class="nav-icon fa fa-home"></span>
+                    <span class="nav-text">Home</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="../course.html" class="nav-link">
+                    <span class="nav-icon fa fa-list"></span>
+                    <span class="nav-text-category">Category</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">
+                    <span class="nav-icon fa-solid fa-address-card"></span>
+                    <span class="nav-text">Contact</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <!-- Akhir Navbar -->
+
+    <section class="overview">
+        <div class="container" data-aos="fade-right" data-aos-duration="1500">
+            <a class="product-brand">
+                <h3>PRODUCT OVERVIEW</h3>
+            </a>
+            <ul class="product-list">
+                <li class="product-item">
+                    <a href="../course.html" class="product-link">
+                        <span class="product-text">All Products</span>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="women.html" class="product-link">
+                        <span class="product-text">Women</span>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="#product" class="product-link">
+                        <span class="product-text-men">Men</span>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="shoes.html" class="product-link">
+                        <span class="product-text">Shoes</span>
+                    </a>
+                </li>
+                <li class="product-item">
+                    <a href="accessoris.html" class="product-link">
+                        <span class="product-text">Accessoris</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Awal Product -->
+    <main id="product">
+        <!-- Section Page - List Produk -->
+        <div class="container">
+            <h2 class="title" data-aos="zoom-in-down" data-aos-duration="1500">Men Product List</h2>
+            <!-- row / baris -->
+            <div class="row">
+                <!-- Column / kolom -->
+                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="350">
+                    <a href="../assets/images/product-1.jpg" class="fancybox" data-fancybox="Product">
+                        <img src="../assets/images/product-1.jpg" alt="">
+                    </a>
+                    <h4>Casual Clothes</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span onclick="chat('Casual Clothes')"><i class=" wa fa-brands fa-whatsapp"></i></span>
+                    </div>
+                    <span>$40.00</span>
+                    <span onclick="buy('Casual Clothes', 'Price $40.00')"><i
+                            class="shop fa-solid fa-cart-shopping"></i></span>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                    <a href="../assets/images/product-4.jpg" class="fancybox" data-fancybox="Product">
+                        <img src="../assets/images/product-4.jpg" alt="">
+                    </a>
+                    <h4>Collar Shirt</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke""></i>
+                        <i class=" fa-regular fa-star"></i>
+                        <span onclick="chat('Collar Shirt')"><i class=" wa fa-brands fa-whatsapp"></i></span>
+                    </div>
+                    <span>$45.00</span>
+                    <span onclick="buy('Collar Shirt', 'Price $45.00')"><i
+                            class="shop fa-solid fa-cart-shopping"></i></span>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="650">
+                    <a href="../assets/images/flanel1.png" class="fancybox" data-fancybox="Product">
+                        <img src="../assets/images/flanel1.png" alt="" height="100%">
+                    </a>
+                    <h4>Flannel Shirt Blue-Grey</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span onclick="chat('Flanel')"><i class=" wa fa-brands fa-whatsapp"></i></span>
+                    </div>
+                    <span>$73.00</span>
+                    <span onclick="buy('Flanel Shirt Blue-Grey', 'PRice $73.00')"><i
+                            class="shop fa-solid fa-cart-shopping"></i></span>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                    <a href="../assets/images/flanel2.png" class="fancybox" data-fancybox="Product">
+                        <img src="../assets/images/flanel2.png" alt="">
+                    </a>
+                    <h4>Flannel Shirt Blue-White</h4>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span onclick="chat('Flanel Shirt Blue-White')"><i class=" wa fa-brands fa-whatsapp"></i></span>
+                    </div>
+                    <span>$71.00</span>
+                    <span onclick="buy('Flanel', 'Price $71.00')"><i class="shop fa-solid fa-cart-shopping"></i></span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Akhir Content -->
+
+
+
+    <!-- Awal Footer -->
+    <footer class="footer-area">
+        <div id="container" class="container">
+            <div class="footer">
+                <div class="single-footer">
+                    <h4>About us</h4>
+                    <p>Centric applications productize front end vortals visualize front end isite results and value
+                        added globally for simplify alternative systems without cross-platforms models.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/ArkhanLupfi" target="_blank"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/lupfi15" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/6281804831455?text=Hallo" target="_blank"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                        <a href="http://twitter.com/LupfiArkhan" target="_blank">
+                            <i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="single-footer">
+                    <h4>Quick links</h4>
+                    <ul class="footer-list">
+                        <li><a href="" class="footer-link"><i class="fa-solid fa-caret-right"></i> Home</a></li>
+                        <li><a href="" class="footer-link"><i class="fa-solid fa-caret-right"></i> About</a></li>
+                        <li><a href="" class="footer-link"><i class="fa-solid fa-caret-right"></i> Products</a>
+                        </li>
+                        <li><a href="" class="footer-link"><i class="fa-solid fa-caret-right"></i> Contact
+                                Person</a></li>
+                    </ul>
+                </div>
+                <div class="single-footer">
+                    <h4>Opening Hours</h4>
+                    <ul class="footer-list">
+                        <li><i class="fa-solid fa-caret-right"></i> Monday : 09.00 - 17.00</li>
+                        <li><i class="fa-solid fa-caret-right"></i> Tuesday : 09.00 - 17.00</li>
+                        <li><i class="fa-solid fa-caret-right"></i> Wednesday : 09.00 - 17.00</li>
+                        <li><i class="fa-solid fa-caret-right"></i> Thursday : 09.00 - 17.00</li>
+                        <li><i class="fa-solid fa-caret-right"></i> Friday : 13.00 - 20.00</li>
+                        <li><i class="fa-solid fa-caret-right"></i> Saturday : 09.00 - 16.00</li>
+                        <li><i class="fa-solid fa-caret-right"></i> Sunday : Shop Closed</li>
+                    </ul>
+                </div>
+                <div class="single-footer">
+                    <h4>Contact Us</h4>
+                    <ul class="footer-list">
+                        <li><a href="" class="footer-link"><i class="fa-solid fa-location-dot"></i> Indonesia, Jaktim
+                                66666, IN</a></li>
+                        <li><a href="" class="footer-link"><i class="fa-solid fa-phone"></i> +62 6666 666 666</a></li>
+                        <li><a href="" class="footer-link"><i class="fa-solid fa-envelope"></i> AL66@gmail.com</a></li>
+                        <li><a href="" class="footer-link"><i class="fa-solid fa-globe"></i> www.alsat666.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="footer-bottom-area">
+        <div class="container">
+            <div class="footer-bottom">
+                <div class="copy">
+                    <p>Copyright <i class="fa-solid fa-at"></i><span id="year"></span> All Rights Reserved | This
+                        template is made with by AL.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../assets/source.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
